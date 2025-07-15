@@ -1,15 +1,15 @@
 module github.com/rook/kubectl-rook-ceph
 
-go 1.23.0
+go 1.24.0
 
-toolchain go1.23.4
+toolchain go1.24.4
 
 require (
 	github.com/fatih/color v1.18.0
 	github.com/golang/mock v1.6.0
 	github.com/kubernetes-csi/external-snapshotter/client/v8 v8.2.0
 	github.com/pkg/errors v0.9.1
-	github.com/rook/rook v1.17.5
+	github.com/rook/rook v1.17.6
 	github.com/rook/rook/pkg/apis v0.0.0-20241216163035-3170ac6a0c58
 	github.com/spf13/cobra v1.9.1
 	github.com/stretchr/testify v1.10.0
